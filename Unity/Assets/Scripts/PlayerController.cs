@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour {
     private bool mouseIsLocked;
     private float jumpTimer;
 
-    private bool isAirborne
+    public bool isAirborne
     {
         get { return !jumpCheck.IsColliding; }
     }
